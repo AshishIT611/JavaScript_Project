@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Geometry</title>
+    <link rel="stylesheet" href="3D.css">
+</head>
+<body>
+    <nav>
+        <h1>3D Geometry</h1>
+    </nav>
+    <div class="container">
+        <div class="section">
+            <img class="image" src="images/G03.jpg" alt="cube">
+            <h3>Cube</h3>
+            <input type="number" id="cube-side" placeholder="Enter side">
+            <button type="button" id="btn">Submit</button>
+            <div class="formula">Formula:Volume=<span id="cubeVolumeFormula"></span>, Surface Area=<span id="cubeSurfaceAreaFormula"></span></div>
+            <div class="result" id="cubeResult"></div>
+        </div>
+        <div class="section">
+            <img class="image" src="images/images (3).jpg" alt="sphere">
+            <h3>Sphere</h3>
+            <input type="number" id="sphere-side" placeholder="Enter Radius">
+            <button type="button" id="btn1">Submit</button>
+            <div class="formula">Formula:Volume=<span id="sphereVolumeFormula"></span>, Surface Area=<span id="sphereSurfaceAreaFormula"></span></div>
+            <div class="result" id="sphereResult"></div>
+        </div>
+        <div class="section">
+            <img class="image" src="images/images (4).jpg" alt="cylinder">
+            <h3>Cylinder</h3>
+            <input type="number" id="cylinder-radius" placeholder="Enter Radius">
+            <input type="number" id="cylinder-height" placeholder="Enter Height">
+            <button type="button" id="btn2">Submit</button>
+            <div class="formula">Formula:Volume=<span id="cylinderVolumeFormula"></span>, Surface Area=<span id="cylinderSurfaceAreaFormula"></span></div>
+            <div class="result" id="cylinderResult"></div>
+        </div>
+        <div class="section">
+            <img class="image" src="images/images (5).jpg" alt="cone">
+            <h3>Cone</h3>
+            <input type="number" id="cone-radius" placeholder="Enter Radius">
+            <input type="number" id="cone-height" placeholder="Enter Height">
+            <button type="button" id="btn3">Submit</button>
+            <div class="formula">Formula:Volume=<span id="coneVolumeFormula"></span>, Surface Area=<span id="coneSurfaceAreaFormula"></span></div>
+            <div class="result" id="coneResult"></div>
+        </div>
+        <div class="section">
+            <img class="image" src="images/images (6).jpg" alt="rectangularPrism">
+            <h3>Rectangular Prism</h3>
+            <input type="number" id="rectangularPrism-length" placeholder="Enter Length">
+            <input type="number" id="rectangularPrism-width" placeholder="Enter Width">
+            <input type="number" id="rectangularPrism-height" placeholder="Enter Height">
+            <button type="button" id="btn4">Submit</button>
+            <div class="formula">Formula:Volume=<span id="rectangularPrismVolumeFormula"></span>, Surface Area=<span id="rectangularPrismSurfaceAreaFormula"></span></div>
+            <div class="result" id="rectangularPrismResult"></div>
+        </div>
+        <div class="section">
+            <img class="image" src="images/images.png" alt="pyramid">
+            <h3>Pyramid</h3>
+            <input type="number" id="pyramid-length" placeholder="Enter Base Length">
+            <input type="number" id="pyramid-heigth" placeholder="Enter Heigth">
+            <input type="number" id="pyramid-width" placeholder="Enter Base Width">
+            <button type="button" id="btn5">Submit</button>
+            <div class="formula">Formula:Volume=<span id="pyramidVolumeFormula"></span>, Surface Area=<span id="pyramidSurfaceAreaFormula"></span></div>
+            <div class="result" id="pyramidResult"></div>
+        </div>
+        <div class="section">
+            <img class="image" src="images/images (7).jpg" alt="tetrahedron">
+            <h3>Tetrahedron</h3>
+            <input type="number" id="tetrahedron-side" placeholder="Enter Length">
+            <button type="button" id="btn6">Submit</button>
+            <div class="formula">Formula:Volume=<span id="tetrahedronVolumeFormula"></span></div>
+            <div class="result" id="tetrahedronResult"></div>
+        </div>
+        <div class="section">
+            <img class="image" src="images/images (1).png" alt="hemisphere">
+            <h3>Hemisphere</h3>
+            <input type="number" id="hemisphere-side" placeholder="Enter Radius">
+            <button type="button" id="btn7">Submit</button>
+            <div class="formula">Formula:Volume=<span id="hemisphereVolumeFormula"></span>, Surface Area=<span id="hemisphereSurfaceAreaFormula"></span></div>
+            <div class="result" id="hemisphereResult"></div>
+        </div>
+        <div class="section">
+            <img class="image" src="images/images (8).jpg" alt="torus">
+            <h3>Torus</h3>
+            <input type="number" id="torus-radius" placeholder="Enter Radius">
+            <input type="number" id="torus-tube-radius" placeholder="Enter Tube Radius">
+            <button type="button" id="btn8">Submit</button>
+            <div class="formula">Formula:Volume=<span id="torusVolumeFormula"></span>, Surface Area=<span id="torusSurfaceAreaFormula"></span></div>
+            <div class="result" id="torusResult"></div>
+        </div>
+    </div>
+    <script src="3D.js"></script>
+</body>
+</html>
