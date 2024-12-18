@@ -14,6 +14,6 @@ document.getElementById("button").addEventListener("click",(e)=>{
     console.log(`Email:${email}`);
     console.log(`Division:${division}`);
     console.log(`City:${city}`);
-    document.getElementById("success").textContent="Successfully Submitted";
+    document.getElementById("success").textContent=`Thank You ${name}`;
     document.querySelector("form").reset();
 });
