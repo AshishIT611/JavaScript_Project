@@ -4,7 +4,7 @@ let currentPlayer = 1;
 
 document.getElementById("btn").addEventListener("click", () => {
     // Generate a random dice roll between 1 and 6
-    let dice = Math.floor(Math.random() * 6) + 1;
+    let dice = Math.floor(Math.random() * 6) + 1
 
     // Display the dice roll
     document.getElementById("value").textContent = `Dice: ${dice}`;
